@@ -9,7 +9,7 @@ from setuptools import find_packages, setup
 setup(
     name="mobile_sam",
     version="1.0",
-    install_requires=[],
+    install_requires=["timm"],
     packages=find_packages(exclude="notebooks"),
     extras_require={
         "all": ["matplotlib", "pycocotools", "opencv-python", "onnx", "onnxruntime"],
